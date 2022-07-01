@@ -25,15 +25,15 @@ body{
 [data-theme="dark"] {
 
     --padding-container: 100px;
-    --color-title: #b7efff;
+    --color-title: #ff5e00;
     --color-paragraph: rgb(255, 255, 255);
-    --primary: #0077ff;
+    --primary: #B3541E;
     --background: rgb(255, 255, 255);
-    --background-image: linear-gradient(180deg, #0000005e 0%, #000000 100%), url('../images/fondito\ 4.jpg');
+    --background-image: linear-gradient(180deg, #0000005e 0%, #000000 100%), url('../images/dark.jpg');
     --background-color-1: black;
-    --background-color-2: #005d74;
-    --background-color-3: #004284;
-    --background-color-4: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(0, 17, 26) 100%);
+    --background-color-2: #110a0a;
+    --background-color-3: #461111;
+    --background-color-4: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 100%);
     --box-shadow: 0px 0px 10px white;
     --border: 1px solid rgb(255, 255, 255);
     --filter: invert(1);
@@ -571,7 +571,7 @@ background-color: var(--background-color-2);
     font-weight: 700;
     border: var(--border);
     background-color: var(--background-color-3);
-    color: rgb(0, 0, 0);
+    color: var(--color-paragraph);
 
 }
 
