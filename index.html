@@ -1,33 +1,41 @@
     <!DOCTYPE html>
+
     <html lang="es">
+
     <head>
-        <!-- Primary Meta Tags -->
+
+    <!-- Primary Meta Tags -->
+    <meta name="theme-color" content="black">
     <meta name="title" content="Mauneven">
     <meta name="description" content="Creador de páginas web, desarrollador JS, CSS, React, Angular, y Python.">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="mauneven.github.io">
+    <meta property="og:url" content="https://mauneven.github.io/mauneven/">
     <meta property="og:title" content="Mauneven">
     <meta property="og:description" content="Creador de páginas web, desarrollador JS, CSS, React, Angular, y Python.">
     <meta property="og:image" content="./PREVIEW.png">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://mauneven.github.io">
+    <meta property="twitter:url" content="https://mauneven.github.io/mauneven/">
     <meta property="twitter:title" content="Mauneven">
     <meta property="twitter:description" content="Creador de páginas web, desarrollador JS, CSS, React, Angular, y Python.">
     <meta property="twitter:image" content="">
 
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title class="title">Mauneven Professional Pages</title>
-        <link rel="shortcut icon" href="./images/logov2.png" type="image/x-icon">
-        <link rel="stylesheet" href="./css/normalize.css">
-        <link rel="stylesheet" href="./css/styles.css">
+        <!-- HTML -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title class="title">Mauneven Professional Pages</title>
+    <link rel="shortcut icon" href="./images/logov2.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
 
-        <meta name="theme-color" content="black">
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./js/switch.js" type="text/javascript" defer></script>
 
 </head>
 <body>
@@ -45,50 +53,61 @@
 
                     <li class="nav__items">
 
-                        <a href="#" class="nav__links">Inicio</a>
+                        <a href="index.html" class="nav__links">Inicio</a>
 
                     </li>
 
                     <li class="nav__items">
 
-                        <a href="#" class="nav__links">Diseños</a>
+                        <a href="pro.html" class="nav__links">Pro</a>
 
                     </li>
 
                     <li class="nav__items">
 
-                        <a href="#" class="nav__links">Cotización</a>
+                        <a href="max.html" class="nav__links">Max</a>
 
                     </li>
 
                     <li class="nav__items">
 
-                        <a href="#" class="nav__links">Contacto</a>
+                        <a href="contacto.html" class="nav__links">Contacto</a>
 
                     </li>
 
                     <li class="nav__items">
 
-                        <a href="#" class="nav__links">Acerca de</a>
+                        <a href="acercade.html" class="nav__links">Acerca de</a>
 
                     </li>
-                    <img src="./images/close.svg" class="nav__close"  alt="">
+
+                    <img src="./images/close.svg" class="nav__close icons2"  alt="">
 
                 </ul>
 
                     <div class="nav__menu">
 
-                <img src="./images/menu.svg" class="nav__img" alt="">
+                <img src="./images/menu.svg" class="nav__img icons2" alt="">
 
+                    </div>
+
+                    <div class="switch-div">
+
+                        <label class="switch">
+                            <input type="checkbox" id="switcher" checked>
+                            <span class="switcher"></span>
+            
+                        </label>
+            
                     </div>
 
         </nav>
 
         <section class="hero__container container">
 
-            <h1 class="hero__title">Tu proyecto o empresa con un sitio web profesional</h1>
-        <p class="hero__paragraph">Tu diseño plasmado en la web, en donde transmites y comunicas tu proyecto a cualquier persona o empresa del mundo, esa es tu pagina web profesional.</p>
-        <a href="" class="cta">Cotiza tu pagina web profesional</a>
+            <h1 class="title">Mauneven Professional Pages</h1>
+        <p class="sub__subtitle">Tu proyecto o empresa con un sitio web profesional</p>
+        <a href="#precios" class="cta">Ver planes disponibles</a>
 
         </section>
 
@@ -98,32 +117,30 @@
 
         <section class="about">  
             
-            <h2 class="subtitle">¿Que obtendré?</h2>
-            <p class="about__paragraph">Todos los planes cuentan con estas caracteristicas principales</p>
+            <h2 class="subtitle">¿Por qué Mauneven Professional Pages?</h2>
 
             <div class="about__main">
 
                 <article class="about__icons">
-
-                    <img src="./images/premium.svg" alt="">
+                    <i class='bx bxl-sketch bx-tada icons'></i>
                     <h3 class="about__title">Diseño Premium</h3>
-                    <p class="about__paragraph">Cada página cuenta con un diseño único, con una proyección que se hace desde el inicio con el cliente acerca de lo que desea transmitir, dar a conocer, o vender.</p>
+                    <p class="paragraph">Cada página cuenta con un diseño único, con una proyección que se hace desde el inicio con el cliente acerca de lo que desea transmitir, dar a conocer, o vender.</p>
 
                 </article>
 
                 <article class="about__icons">
 
-                    <img src="./images/devices.svg" alt="">
-                    <h3 class="about__title">Compatibilidad</h3>
-                    <p class="about__paragraph">Cada página cuenta con visualización en una amplia gama de dispositivos, desde computadoras, teléfonos y tabletas de diferentes resoluciones.</p>
+                    <i class='bx bxs-layer bx-tada icons'></i>
+                    <h3 class="about__title">Multi Plataforma</h3>
+                    <p class="paragraph">Cada página cuenta con visualización en una amplia gama de dispositivos, desde computadoras, teléfonos y tabletas de diferentes resoluciones.</p>
 
                 </article>
 
                 <article class="about__icons">
 
-                    <img src="./images/tech.svg" alt="">
+                    <i class='bx bx-chip bx-tada icons' ></i>
                     <h3 class="about__title">Potencia</h3>
-                    <p class="about__paragraph">Trabajamos con los ultimos frameworks de potencia y servidores de alta calidad con velocidades perfectas para tu sitio en cualquier momento.</p>
+                    <p class="paragraph">Trabajamos con los ultimos frameworks de potencia y servidores de alta calidad con velocidades perfectas para tu sitio en cualquier momento.</p>
 
                 </article>
 
@@ -149,7 +166,7 @@
                     </div>
         </section>
 
-        <section class="price">
+        <section class="price" id="precios">
 
             <h1 class="price__title">Planes y precios</h1>
 
@@ -159,16 +176,14 @@
 
                 <p class="price__name">Pro</p>
                 <p class="sub__subtitle">Empresas medianas o personas</p>
-                <br>
-                <h3 class="price__price">1 a 3 Millones</h3>
 
 
                 <div class="price__items">
-                    <p class="paragraph">100 GB de almacenamiento en tu página web, múltiples sub páginas perfecto para exponer tus ideas, productos, portafolio, redes sociales, contacto, imágenes, video, localización junto con conexión a ventas en línea con apps comerciales. Gran velocidad en tu página web con servidores SSD, múltiples estilos y tipos de diseños, junto a una asistencia a la página muy amigable.</p>
+                    <p class="paragraph">Una opción perfecta para exponer tus ideas, productos, portafolio, redes sociales, contacto, imágenes, videos, ubicaciones, o ventas en línea lleno de múltiples estilos y diferentes tipos de diseños que puedes elegir o pedir, una combinación completa pero simplista, potente, rapida y segura hecha en código puro para las mejores optimizaciones y velocidades a fin que siempre esté disponible.</p>
                     <p class="sub__subtitle">Código fuente al cliente</p>
                 </div>
 
-                <a href="" class="price__cta">Prefiero el Pro</a>
+                <a href="pro.html" class="price__cta">Prefiero el Pro</a>
 
             </div>
 
@@ -176,16 +191,14 @@
 
                 <p class="price__name">Max</p>
                 <p class="sub__subtitle">Grandes empresas</p>
-                <br>
-                <h3 class="price__price">4 a 8 Millones</h3>
 
 
                 <div class="price__items">
-                    <p class="paragraph">Con opciones para utilizar una base de datos, servidores en Linux con velocidades SSD, 200 GB para grandes flujos de datos, capacidad para más de 200.000 mil visitas en el mes, pagos en línea con apps comerciales, servidor protegido con Cloudflare, correos electrónicos con su dominio, cuentas FTP, Frameworks avanzados como React, múltiples idiomas y conexiones a otros servidores.</p>
+                    <p class="paragraph">Gran opción para utilizar una base de datos, servidores en Linux con velocidades SSD, 200 GB para grandes flujos de datos, capacidad para más de 200.000 mil visitas en el mes, pagos en línea con apps comerciales, servidor protegido con Cloudflare, correos electrónicos con su dominio, cuentas FTP, Frameworks avanzados como React, múltiples idiomas y conexiones a otros servidores.</p>
                     <p class="sub__subtitle">Código fuente a la empresa</p>
                 </div>
 
-                <a href="" class="price__cta">Prefiero el Max</a>
+                <a href="max.html" class="price__cta">Prefiero el Max</a>
 
             </div>
 
@@ -200,7 +213,7 @@
         
         <div class="resume__container container">
 
-            <img src="./images/leftarrow.svg" alt=""  class="resume__arrow" id="before">
+            <img src="./images/leftarrow.svg" alt=""  class="icons2" id="before">
             <section class="resume__body" data-id="1">
 
                 <div class="resume__texts">
@@ -251,7 +264,7 @@
 
             </section>
 
-            <img src="./images/rightarrow.svg" alt=""  class="resume__arrow" id="next">
+            <img src="./images/rightarrow.svg" alt=""  class="icons2" id="next">
 
         </div>
 
@@ -285,38 +298,38 @@
 
             <nav class="nav nav--footer">
 
-                <h1>Mauneven Proffesional Pages</h1>
+                <h1 class="subtitle">Mauneven Professional Pages</h1>
 
                 <ul class="nav__link nav__link--footer"></ul>
 
                 
                 <li class="nav__items">
 
-                    <a href="#" class="nav__links">Inicio</a>
+                    <a href="index.html" class="nav__links">Inicio</a>
 
                 </li>
 
                 <li class="nav__items">
 
-                    <a href="#" class="nav__links">Diseños</a>
+                    <a href="pro.html" class="nav__links">Pro</a>
 
                 </li>
 
                 <li class="nav__items">
 
-                    <a href="#" class="nav__links">Cotización</a>
+                    <a href="max.html" class="nav__links">Max</a>
 
                 </li>
 
                 <li class="nav__items">
 
-                    <a href="#" class="nav__links">Contacto</a>
+                    <a href="contacto.html" class="nav__links">Contacto</a>
 
                 </li>
 
                 <li class="nav__items">
 
-                    <a href="#" class="nav__links">Acerca de</a>
+                    <a href="acercade.html" class="nav__links">Acerca de</a>
 
                 </li>
 
@@ -325,7 +338,8 @@
             <form class="footer__form" action="https://formspree.io/f/xayvzppk"
             method="POST">
 
-                <h3 class="hero__paragraph">Deja tu email si necesitas mas información</h3>
+                <h3 class="subtitle">Deja tu email si necesitas mas información</h3>
+                <br>
                 <div class="footer__inputs">
 
                     <input type="email" name="email" id="" placeholder="Email:" class="footer__input">
@@ -342,12 +356,12 @@
             <div class="footer__social">
 
                 <h3 class="subtitle">Contacto directo</h3>
-                <a href="#" class="footer__icons"><img src="./images/telegram.svg" alt="#" class="footer__img" ></a>
-                <a href="#" class="footer__icons"><img src="./images/instagram.svg" alt="#" class="footer__img" ></a>
-                <a href="#" class="footer__icons"><img src="./images/facebook.svg" alt="#" class="footer__img" ></a>
+                <a href="https://t.me/Mauneven"><img src="./images/telegram.svg" alt="" class="icons2"></i></a>
+                <a href="https://instagram.com/mauneven"><img src="./images/instagram.svg" alt="" class="icons2"></i></a>
+                <a href="https://github.com/mauneven"><img src="./images/github.svg" alt="" class="icons2"></i></a>
 
             </div>
-            <h4 class="footer__copyright">Todos los diseños y derechos reservados &copy; Mauricio Pulido</h4>
+            <h4 class="footer__copyright">Todos los diseños y derechos reservados &copy; Mauneven</h4>
         </section>
     </footer>
 
