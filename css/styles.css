@@ -154,7 +154,6 @@ input:checked + .switcher:before {
     overflow: hidden;
     padding: 4em
 
-    
 }
 
 .title{
@@ -622,6 +621,7 @@ background-color: var(--background-color-2);
     pointer-events: none;
     opacity: 0;
     transition: opactiy 1s ease-in;
+
 }
 
 .resume__img{
@@ -636,6 +636,7 @@ background-color: var(--background-color-2);
 }
 
 .resume__title{
+
     gap: 2em;
     text-align: center;
     color: var(--color-title);
@@ -652,7 +653,8 @@ background-color: var(--background-color-2);
 
 .resume__arrow{
 
-    width: 90%;
+    width: 100%;
+    padding: 0em;
     cursor: pointer;
     
 
@@ -667,8 +669,8 @@ background-color: var(--background-color-2);
 
 .resume__about{
 
-    background-color: royalblue;
-    color: white;
+    background-color: var(--background-color-1);
+    color: var(--color-paragraph);
     display: inline-block;
     padding: 5px;
 
@@ -992,6 +994,15 @@ background-color: var(--background-color-2);
     /* media queries */
 
     @media (max-width:1000px){
+
+        .container{
+
+            width: 100%;
+            margin: auto;
+            overflow: hidden;
+            padding: 2em;
+        
+        }
         
         .nav__menu{
 
@@ -1003,7 +1014,6 @@ background-color: var(--background-color-2);
         .subtitle {
 
             color: var(--color-title);
-            margin-bottom: 25px;
             margin: 0;
         
         }
@@ -1050,7 +1060,7 @@ background-color: var(--background-color-2);
 
         .hero__title{
 
-            font-size: 2.0rem;
+            font-size: 3.0rem;
             color: var(--color-title);
 
         }
