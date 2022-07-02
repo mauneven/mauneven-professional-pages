@@ -1112,9 +1112,9 @@ background-color: var(--background-color-2);
         .resume__container{
 
             grid-template-columns: 40px 0fr 40px;
-            gap: 1em;
+            gap: 0em;
             margin: 0px;
-            padding: 1em;
+            padding: 0em;
             width: 100%;
 
         }
