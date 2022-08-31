@@ -709,7 +709,7 @@ background-color: var(--background-color-2);
 
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 30em;
+    gap: 10em;
     align-items: center;
 
 }
